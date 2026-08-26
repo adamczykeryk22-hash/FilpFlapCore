@@ -1,0 +1,17 @@
+name: FilpFlapCore
+version: 1.0.0
+main: pl.filpflap.core.FilpFlapCore
+api-version: '1.21'
+author: FilpFlap
+description: FilpFlap BoxPvP Core
+
+commands:
+  filpflap:
+    description: Otwiera menu FilpFlap
+    usage: /filpflap
+    aliases: [ff]
+
+permissions:
+  filpflap.admin:
+    description: Administracja FilpFlapCore
+    default: op
