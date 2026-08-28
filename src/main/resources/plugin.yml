@@ -1,0 +1,61 @@
+name: FilpFlapCore
+version: 6.1.0
+main: pl.filpflap.core.FilpFlapCore
+api-version: '1.21'
+
+commands:
+  filpflap:
+    description: Otwiera menu FilpFlap
+    aliases: [ff]
+
+  ff:
+    description: Otwiera menu FilpFlap
+
+  shop:
+    description: Otwiera sklep
+
+  money:
+    description: Pokazuje saldo
+    aliases: [bal]
+
+  bal:
+    description: Pokazuje saldo
+
+  coins:
+    description: Pokazuje monety
+    aliases: [monety]
+
+  monety:
+    description: Pokazuje monety
+
+  daily:
+    description: Odbiera Daily
+
+  pay:
+    description: Przelewa pieniadze
+    usage: /pay <gracz> <kwota>
+
+  autosell:
+    description: Wlacza lub wylacza AutoSell
+    permission: filpflap.autosell
+
+permissions:
+  filpflap.autosell:
+    description: Dostep do AutoSell
+    default: false
+
+  filpflap.rank.vip:
+    description: Ranga VIP
+    default: false
+
+  filpflap.rank.mod:
+    description: Ranga MOD
+    default: false
+
+  filpflap.rank.admin:
+    description: Ranga ADMIN
+    default: false
+
+  filpflap.rank.owner:
+    description: Ranga OWNER
+    default: false
